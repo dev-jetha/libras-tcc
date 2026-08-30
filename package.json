@@ -1,0 +1,24 @@
+{
+  "name": "libras-tcc",
+  "version": "1.0.0",
+  "description": "Sistema web desenvolvido como projeto de TCC, voltado ao aprendizado e à prática de Libras (Língua Brasileira de Sinais). Desenvolvido com JavaScript e Node.js, o sistema oferece recursos interativos para auxiliar estudantes, proporcionando uma experiência de aprendizagem dinâmica, acessível e interativa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-jetha/libras-tcc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dev-jetha/libras-tcc/issues"
+  },
+  "homepage": "https://github.com/dev-jetha/libras-tcc#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
