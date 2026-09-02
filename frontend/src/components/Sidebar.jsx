@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Sidebar(){
+function Sidebar({pagina, setPagina}){
     const [aberto, setAberto] = useState(true)
     return (
         <aside>
@@ -10,12 +10,18 @@ function Sidebar(){
 
                  {aberto && (
                 <div>
-                    <p>Início</p>
-                    <p>Aprender Libras</p>
-                    <p>Dicionário</p>
-                    <p>Jogos</p>
-                    <p>Meu Progresso</p>
-                    <p>Configurações</p>
+                    <button onClick={() => setPagina("inicio")}>
+                        Início</button>
+                    <button onClick={() => setPagina("aprender libras")}>
+                        Aprender Libras</button>
+                    <button onClick={() => setPagina("dicionario")}>
+                        Dicionário</button>
+                    <button onClick={() => setPagina("jogos")}>
+                        Jogos</button>
+                    <button onClick={() => setPagina("meu progresso")}>
+                        Meu Progresso</button>
+                    <button onClick={() => setPagina("configuracoes")}>
+                        Configurações</button>
                 </div>
             )}
 
@@ -23,5 +29,4 @@ function Sidebar(){
             
     )
 }
-
 export default Sidebar;
